@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lilita+One&family=Pacifico&family=Rakkas&display=swap");
+@font-face {
+  font-family: asleepy;
+  src: url(/Fuentes/Asleepytiming.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(0, 110, 255, 0.904);
+
+}
+
+header {
+  background-color: white;
+  height: 85px;
+  width: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* padding: 5px 10%; */
+  font-family: "Pacifico", cursive;
+}
+.logo {
+  height: 80px;
+  width: 80px;
+}
+header .logos {
+  cursor: pointer;
+  justify-content: left;
+}
+.barra {
+  justify-content: right;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+header ul a {
+  font-size: 30px;
+  color: rgb(0, 140, 255);
+  text-decoration: none;
+}
+header ul a:hover {
+  color: rgba(0, 255, 255, 0.705);
+}
+main {
+  /* width: 1265px; */
+  height: 100%;
+  padding: 5px;
+  text-align: center;
+  font-family: "Lilita One", sans-serif;
+}
+main img {
+  border-radius: 5px;
+  height: 450px;
+}
+article{
+  /* width: 150px; */
+  height: 510px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+main .row {
+  display: flex;
+  justify-content: space-between;
+}
+main a {
+  text-decoration: none;
+  color: rgba(0, 70, 117, 0.993);
+}
+main h2{
+  font-size: 22px;
+  background-color: #3e78f7;
+}
+main a:hover {
+  color: rgb(50, 201, 201);
+}
+video {
+  border-radius: 5px;
+  padding-top: 5px;
+  width: 300px;
+  height: 400px;
+}
+footer {
+  background-color: #0d2033;
+  border: 2px solid black;
+  width: 100%;
+  font-family: "asleepy", cursive;
+}
+footer h2 {
+  color: #fff;
+}
+.mapa {
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.copy {
+  width: 15px;
+  height: 10px;
+}
+.derechos {
+  background-color: #0d2033;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+}
+footer .foot {
+  width: 100%;
+  max-width: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+footer .foot .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .foot .rrss a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d1933;
+  text-align: center;
+  transition: all 300ms ease;
+}
+/* pinguinos pagina */
+.pinguino{
+  background-color: #fff;
+}
+.pinguino h2 {
+
+  font-size: 40px;
+}
+.pinguino img {
+  width: 300px;
+  height: 300px;
+}
+.pinguino p {
+  font-size: 22px;
+
+}
+.nosotros{
+  height: 700px;
+
+
+}
+.nosotros h2{
+  font-size: 40px;
+}
+.nosotros p{
+  font-size: 22px;
+} 
+.nosotros iframe{
+  width: 900px;
+  height: 400px;
+}
+
