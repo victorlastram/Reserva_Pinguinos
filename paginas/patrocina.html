@@ -38,28 +38,37 @@
       </div>
     </header>
     <main >
-      
-        <h1>Nosotros</h1>
-      <div class="nosotros">
-        <h2 >Nuestros Origenes</h2>
-        <p>
-          Somos una Fundacion que se preocupa por los pingüinos y de su
-          medioambiemte, ademas de poder dar informacion relevante sobre su
-          cuidado.
-        </p>
-        <h2>Ubicacion</h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13329.548444781321!2d-70.64472723315886!3d-33.36095829395023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c633baf9aaf5%3A0x9a03cdf0df32dd91!2sParque%20Huechuraba!5e0!3m2!1ses-419!2scl!4v1711767322867!5m2!1ses-419!2scl"
-          width="900"
-          height="700"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          class="mapa"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4"><h1>Patrocina un Pingüino</h1>
+        <form class="get">
+            <div class="mb-3">
+                <label for="example2" class="form-label">Ingrase su Nombre</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Dirección de correo</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccione un Pingüino a patrocinar</option>
+                <option value="1">Pingüino Emperador</option>
+                <option value="2">Pingüino de las Galápagos</option>
+                <option value="3">Pingüino de Humboldt</option>
+                <option value="4">Pingüino Africano</option>
+                <option value="5">Pingüino de Adelia</option>
+              </select>
+            <label for="example" class="form-label">Cuanto Dinero desea aportar</label>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text">$</span>            
+                <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+              </div>
+            <button type="submit" class="btn btn-primary" >Aportar</button>
+          </form></div>
+        <div class="col-sm-4"></div>
       </div>
-      <div></div>
+        
     </main>
     <footer>
       <div>
